@@ -38,7 +38,7 @@ import tensorflow as tf
 
 SOURCE_URL = 'http://yann.lecun.com/exdb/mnist/'
 WORK_DIRECTORY = 'data'
-IMAGE_SIZE = 32
+IMAGE_SIZE = 30
 NUM_CHANNELS = 1
 PIXEL_DEPTH = 255
 NUM_LABELS = 10
