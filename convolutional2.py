@@ -182,7 +182,7 @@ def main(argv=None):  # pylint: disable=unused-argument
     #split test and training data
     #randomize it first
     numpy.random.shuffle(data)
-	print(data[0,0,0,0])
+	print(data.(0,0,0,0))
 
     train_data = data[:int(TOTAL_SIZE * .8)]
     test_data = data[int(TOTAL_SIZE * .8):]
